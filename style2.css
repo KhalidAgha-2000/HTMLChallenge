@@ -1,0 +1,47 @@
+header {
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+  font-style: italic;
+}
+.div01 {
+  padding: 30px;
+}
+.order {
+  margin-left: 100px;
+}
+
+.unoreder {
+  margin-left: 100px;
+}
+
+.h1 {
+  color: blueviolet;
+  font-style: italic;
+}
+li {
+  color: blue;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.img01 {
+  margin-left: 30px;
+}
+.img03 {
+  width: 200px;
+  height: 150px;
+  float: left;
+  border-radius: 30px;
+}
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  height: 200px;
+  background-color: #7fffd454;
+}
+
+b {
+  color: red;
+  margin-top: 20px;
+  margin-left: 20px;
+}
