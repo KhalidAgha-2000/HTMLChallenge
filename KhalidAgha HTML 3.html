@@ -12,20 +12,18 @@
       <div class="title">
         <h1 class="ht">
           Welcome Here !
-          <p>My HTML3 Challenge</p>
+          <p>TECH STORE</p>
         </h1>
         <br />
       </div>
       <br />
       <!-- NavBar -->
       <div class="nav">
-        <div id="nav1" class="navElement">
-          <a href="" target="_blank">Home</a>
-        </div>
-        <div class="navElement"><a href="" target="#">About</a></div>
-        <div class="navElement"><a href="" target="#">Contact</a></div>
-        <div class="navElement"><a href="" target="#">Info</a></div>
-        <div class="navElement"><a href="" target="#">Official</a></div>
+        <div class="navElement" id="nav1"><a href="" target="#">Home</a> |</div>
+        <div class="navElement"><a href="" target="#">About</a> |</div>
+        <div class="navElement"><a href="" target="#">Contact</a> |</div>
+        <div class="navElement"><a href="" target="#">Info</a> |</div>
+        <div class="navElement"><a href="" target="#">Official</a>   |</div>
         <div class="navElement"><a href="" target="#">Gift</a></div>
         <div style="clear: both"></div>
       </div>
@@ -48,10 +46,11 @@
           <b style="color: #697375">Block here .. </b>
           <br />
           <p class="block">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Cupiditate, a? Modi expedita voluptatibus quae, non nesciunt sint
-            est enim, aliquam veritatis beatae suscipit blanditiis delectus
-            labore adipisci voluptate explicabo laudantium.
+            Angular (commonly referred to as "Angular 2+" or "Angular
+            CLI")[4][5] is a TypeScript-based free and open-source web
+            application framework led by the Angular Team at Google and by a
+            community of individuals and corporations. Angular is a complete
+            rewrite from the same team that built AngularJS.
           </p>
         </div>
         <!-- Gallery Section -->
@@ -59,41 +58,49 @@
           <h1 class="gallery">Gallery</h1>
           <hr />
           <p class="galleryP">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-            ut, minus nam eos vitae blanditiis ducimus vel, illo qui voluptate
-            nisi fugiat reprehenderit recusandae perferendis ipsum porro dolor.
-            Officiis, obcaecati.
+            Angular is an application design framework and development platform
+            for creating efficient and sophisticated single-page apps. These
+            Angular docs help you learn and use the Angular framework and
+            development platform, from your first application to optimizing
+            complex single-page apps for enterprises. Tutorials and guides
+            include downloadable examples to accelerate your projects.
           </p>
 
           <p class="galleryP">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
-            minima aut quam, sunt optio quae quibusdam sint ex atque magni,
-            perferendis modi delectus. Porro dicta doloribus ipsum nihil commodi
-            saepe?
+            With Angular, you're taking advantage of a platform that can scale
+            from single-developer projects to enterprise-level applications.
+            Angular is designed to make updating as straightforward as possible,
+            so take advantage of the latest developments with a minimum of
+            effort. Best of all, the Angular ecosystem consists of a diverse
+            group of over 1.7 million developers, library authors, and content
+            creators.
           </p>
           <!-- Subscription & Service  -->
           <div class="sub">
             <h1 class="subs">Subscription</h1>
             <p class="subP">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-              assumenda illo distinctio et quo ratione, doloribus doloremque nam
-              iure recusandae aliquam perferendis blanditiis fugiat.
-              Perspiciatis molestiae magnam architecto! Non, placeat......
+              An early form of subscription was praenumeration, a common
+              business practice in the 18th-century book trade in Germany. The
+              publisher offered to sell a book that was planned but had not yet
+              been printed, usually at a discount, so as to cover their costs in
+              ....
             </p>
             <br />
-            <button class="readMore">Read More</button>
+            <button class="readMore">
+              <a href="#" target="_blank">READ MORE</a>
+            </button>
           </div>
           <div class="hr"></div>
           <div class="ser">
             <h1 class="serv">Other Services</h1>
             <p class="serP">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              reprehenderit veniam quos aut, error voluptatibus et eveniet
-              officia alias dolor eligendi fugiat, facere consequuntur nulla
-              voluptates aliquam cupiditate quaerat expedita!
+              Available to help you with articles and framework .. we also
+              creating website , application android and others ....
             </p>
             <br />
-            <button class="readMore">Read More</button>
+            <button class="readMore">
+              <a href="#" target="_blank">READ MORE</a>
+            </button>
           </div>
         </div>
       </div>
@@ -113,15 +120,16 @@
         <h2>Message</h2>
         <textarea
           name="mess"
-          id=""
+          id="messages"
           cols="140"
           rows="10"
           placeholder="MESSAGE"
+          required
         ></textarea>
         <br />
         <!-- Radio button -->
         <div class="left">
-          <p style="font-size: 20px">Please select Favorit:</p>
+          <p class="radioP">Select Favorit:</p>
           <input type="radio" id="" name="Fav" value="H" />
           <label for="">HTML</label><br />
           <input type="radio" id="" name="Fav" value="P" />
@@ -130,7 +138,7 @@
           <label for="ang">Angular</label>
         </div>
         <div class="right">
-          <p style="font-size: 20px">Suggest a Topic</p>
+          <p class="radioP">Suggest a Topic</p>
           <input type="radio" id="prog" name="Sug" value="P" />
           <label for="prog">Programming</label><br />
           <input type="radio" id="sport" name="Sug" value="S" />
@@ -138,13 +146,23 @@
           <input type="radio" id="food" name="Sug" value="F" />
           <label for="food">Food</label>
         </div>
+        <div class="right2">
+          <p class="radioP">Services</p>
+          <input type="radio" id="ar" name="Ser" value="a" />
+          <label for="article">Articles</label><br />
+          <input type="radio" id="ch" name="Ser" value="c" />
+          <label for="challeng">Challenges</label><br />
+          <input type="radio" id="j" name="Ser" value="j" />
+          <label for="jobs">Jobs</label>
+        </div>
         <!-- submit -->
-        <input type="submit" value="Submit" />
+        <input type="submit" value="-Submit-" />
         <br />
       </form>
     </div>
 
     <hr />
-    <p style="color: #697375; font-size: 20px">Copyright©2021</p>
+    <p class="copyR">Copyright &copy; 2021</p>
+    <p class="copyR">By <span>M.Khalid.K.Agha</span></p>
   </footer>
 </html>

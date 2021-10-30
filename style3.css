@@ -1,6 +1,15 @@
 body {
   background-color: #202020;
   text-align: center;
+  
+  border-right-color: grey;
+  border-right-style: inset;
+  border-radius: 30px;
+  
+  border-left-color: white;
+  border-left-style: inset;
+  border-radius: 30px;
+  
 }
 .container {
   background-color: #212b2d;
@@ -16,8 +25,12 @@ body {
   margin-top: 50px;
   background-image: url("imgs/EmailPhoto.png");
   background-repeat: no-repeat;
- 
   background-size: 50% 100%;
+  border-radius: 35px;
+  border-right-style: inset;
+  border-right-color: #6a6f73;
+  border-left-style: inset;
+  border-left-color: wheat;
 }
 .ht {
   color: #697375;
@@ -29,13 +42,19 @@ body {
   width: 100%;
   height: 70px;
   margin: auto;
+  
+  border-radius: 10px red;
 }
 .navElement {
   color: #697375;
+  font-style: italic;
   float: left;
-  margin: 11px;
-  font-size: 45px;
-  border-left: 1px solid wheat;
+  margin-right: 9px;
+  margin-left: 9px;
+  font-size: 37px;
+  /* border-left: 1px solid cornflowerblue; */
+  
+  word-spacing: 10px;
 }
 .navElement a {
   color: #697375;
@@ -45,7 +64,6 @@ body {
 }
 .menu {
   float: left;
-
   width: 30%;
   text-align: left;
 }
@@ -68,11 +86,20 @@ li a {
 }
 .ser {
   float: right;
+  margin-right: 40px;
   width: 45%;
+}
+.readMore a {
+  color: #202020;
+}
+.readMore:hover {
+  background-color: #1a3744;
 }
 .readMore {
   background-color: #98a9ae;
   color: black;
+  border-radius: 15px;
+  font-size: 19px;
   padding: 8px;
   margin-bottom: 8px;
 }
@@ -86,6 +113,8 @@ footer {
   width: 80%;
   border-top: 2px solid #697375;
   text-align: center;
+
+  
 }
 
 .Hform {
@@ -126,6 +155,8 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 25px;
+  font-style: italic;
 }
 
 input[type="submit"]:hover {
@@ -141,10 +172,34 @@ ul li {
   text-align: left;
   margin-left: 80px;
 }
+.right2 {
+  float: left;
+  color: #697375;
+  text-align: left;
+  margin-left: 150px;
+}
 .left {
   text-align: center;
   float: left;
   color: #696969;
   text-align: left;
   margin-right: 80px;
+}
+.copyR {
+  color: #697375;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+span {
+  font-style: italic;
+}
+textarea {
+  text-align: center;
+}
+.radioP {
+  font-size: 20px;
+  text-decoration: underline;
+}
+span {
+  text-decoration: underline;
 }
